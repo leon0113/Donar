@@ -42,7 +42,7 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_wine  flex__center">
         <p className="app__specialMenu-menu_heading">Pizza lisätäyttet</p>
         <div className="app__specialMenu_menu_items">
-          {data.lisätäyttet.map((wine, index) => (
+          {data.drinks.map((wine, index) => (
             <MenuItem key={wine.title + index} image={wine.image} title={wine.title} price={wine.price} choose={wine.choose} tags={wine.tags} />
           ))}
         </div>
@@ -55,7 +55,7 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Vege Menu</p>
         <div className="app__specialMenu_menu_items">
-          {data.vegeMenu.map((cocktail, index) => (
+          {data.extrat2.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
           ))}
         </div>
@@ -82,7 +82,15 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading">Extrat</p>
         <div className="app__specialMenu_menu_items">
-          {data.extrat2.map((cocktail, index) => (
+          {data.vegeMenu.map((cocktail, index) => (
+            <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
+          ))}
+        </div>
+      </div>
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Drinks</p>
+        <div className="app__specialMenu_menu_items">
+          {data.lisätäyttet.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
           ))}
         </div>

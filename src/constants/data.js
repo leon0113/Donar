@@ -3,56 +3,56 @@
 
 const menu = [
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/WGFdS1B/KEBAB-PITALEIVALLA-removebg-preview.png",
     choose: "valitse liha: voner/falafel",
-    title: 'KEBAB PITALE',
+    title: 'KEBAB PITALEIVALLA',
     price: '€9,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/Jv1vbhf/DONER-BOX-JR-removebg-preview-2.png",
     choose: "valitse liha: nauta/kana",
     title: 'DONER BOX JR',
     price: '€7,50',
     tags: 'tomaattikastiketta | ranskalaiset | ketsuppi',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/HCGyRFZ/KEBAB-RIISILLA.png",
     choose: "valitse liha: nauta/kana",
     title: 'KEBAB RIISILLA',
     price: '€10,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/FDbQQrD/Kana-Ranskalaisilla-removebg-preview.png",
     choose: "valitse liha: nauta/kana",
-    title: 'KEBAB ',
+    title: 'KEBAB RANSKALAISILLA',
     price: '€10,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/kyqgyN9/RULLA-KEBAB-removebg-preview-2.png",
     choose: "valitse liha: nauta/kana",
-    title: 'RULLAKERAN SKALAISILLA',
+    title: 'RULLAKEBAB',
     price: '€11,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
-  // {
-  //   image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
-  //   choose: "valitse liha: nauta/kana",
-  //   title: 'RULLAKEBAB',
-  //   price: '€13,90',
-  //   tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
-  // },
   {
     image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    choose: "valitse liha: nauta/kana",
+    title: 'RULLAKEBAB FETA TAI AURAJUUSTOLLA',
+    price: '€13,90',
+    tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
+  },
+  {
+    image: "https://i.ibb.co/1zMJrSC/ISKANDER-KEBAB-removebg-preview-1.png",
     choose: "valitse liha: nauta/kana",
     title: 'ISKENDER',
     price: '€11,90',
     tags: 'paahdettua pide-leipa kuutiota | tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali |  marinoitu punasipuli | yrtit',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/9NBdj09/TALON-SPESSU-removebg-preview-2.png",
     choose: "valitse proteiini: nauta/voner/falafel,ranskalaiset",
     title: 'TALON SPESSU',
     price: '€13,50',
@@ -80,7 +80,7 @@ const pizzat = [
     tags: 'kebab | punasipuli | chilli | tomatti | feta',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/3YmzRVy/PIZZA-NAPOLI-removebg-preview-2.png",
     title: 'PIZZA NAPOLI',
     price: '€12,20',
     tags: 'katkarapu | aurajuusto | rucola',
@@ -284,4 +284,4 @@ const drinks = [
   },
 ]
 
-export default { menu, pizzat, lisätäyttet, vegeMenu, salaatit, extrat2 };
+export default { menu, pizzat, lisätäyttet, vegeMenu, salaatit, extrat2, drinks };
