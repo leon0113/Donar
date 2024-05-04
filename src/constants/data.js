@@ -74,13 +74,13 @@ const pizzat = [
     tags: 'tuore tomaatti | mozzarella | rucola',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/T2bkLTw/PIZZA-Doner-special-removebg-preview-2.png",
     title: 'PIZZA DONER SPECIAL',
     price: '€12,80',
     tags: 'kebab | punasipuli | chilli | tomatti | feta',
   },
   {
-    image: "https://i.ibb.co/3YmzRVy/PIZZA-NAPOLI-removebg-preview-2.png",
+    image: "https://i.ibb.co/xFGsBPQ/PIZZA-NAPOLI-removebg-preview-2.png",
     title: 'PIZZA NAPOLI',
     price: '€12,20',
     tags: 'katkarapu | aurajuusto | rucola',
@@ -92,7 +92,7 @@ const pizzat = [
     tags: 'kana | punasipuli | mozzarella | rucola | bbq-kastike',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/3CQrtGZ/PIZZA-SALAMI-removebg-preview-2.png",
     title: 'PIZZA SALAMI',
     price: '€10,80',
     tags: 'tupla salami',
@@ -110,7 +110,7 @@ const pizzat = [
     tags: 'oma valinta neljalla taytteella',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/6vNqcw7/Pizza-peparoni-2-removebg-preview.png",
     title: 'PIZZA PEPPERONI',
     price: '€9,90',
     tags: 'tupla pepperoni',
@@ -134,7 +134,7 @@ const pizzat = [
     tags: 'kana | ananas | aurajuusto',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/HVkwkJq/PIZZA-ROMEO-removebg-preview-2.png",
     title: 'PIZZA ROMEO',
     price: '€12,90',
     tags: 'salami | ananas | aurajuusto | katkarapu',
@@ -188,7 +188,7 @@ const salaatit = [
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/LxQ8x0n/KEBAB-SALATTI-removebg-preview-2.png",
     choose: "valitse: nauta / kana",
     title: 'KEBAB SALAATTI',
     price: '€10,50',
@@ -248,35 +248,35 @@ const extrat2 = [
 
 const drinks = [
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/27Gq74H/coke.jpg",
     choose: "",
     title: 'Coca-cola ___ 330ml/500ml/1.5L',
     price: '€ 2,50/4,00/6,00',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/5KwbXTd/coke-zero.jpg",
     choose: "",
     title: 'Coca-cola zero ___ 330ml/500ml/1.5L',
     price: '€ 2,50/4,00/6,00',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/4MHmB3t/coke-sprite.jpg",
     choose: "",
     title: 'Sprite zero ___ 330ml',
     price: '€2,50',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/nzqFqdx/coke-fanta.jpg",
     choose: "",
     title: 'Fanta (applesini) ___ 330ml',
     price: '€2,50',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/6RF3X54/coke-fanta1.jpg",
     choose: "",
     title: 'Fanta ___ 500ml',
     price: '€4,00',
