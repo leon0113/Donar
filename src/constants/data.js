@@ -10,7 +10,7 @@ const menu = [
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/Jv1vbhf/DONER-BOX-JR-removebg-preview-2.png",
+    image: "https://i.ibb.co/9Wqdyqw/DONER-JR-BOX-removebg-preview-2.png",
     choose: "valitse liha: nauta/kana",
     title: 'DONER BOX JR',
     price: '€7,50',
@@ -38,7 +38,7 @@ const menu = [
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/kyqgyN9/RULLA-KEBAB-removebg-preview-2.png",
     choose: "valitse liha: nauta/kana",
     title: 'RULLAKEBAB FETA TAI AURAJUUSTOLLA',
     price: '€13,90',
@@ -62,13 +62,13 @@ const menu = [
 
 const pizzat = [
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/1Rkb8F8/1-Bolognese-1536x1024-removebg-preview-2.png",
     title: 'CLASSIC BOLOGNESE',
     price: '€10,20',
     tags: 'home made jauheliha kastike',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/vjsgXHy/1-B-Margarita-1536x1024-removebg-preview-2.png",
     title: 'PIZZA MARGHERITA',
     price: '€10,80',
     tags: 'tuore tomaatti | mozzarella | rucola',
@@ -80,61 +80,61 @@ const pizzat = [
     tags: 'kebab | punasipuli | chilli | tomatti | feta',
   },
   {
-    image: "https://i.ibb.co/xFGsBPQ/PIZZA-NAPOLI-removebg-preview-2.png",
+    image: "https://i.ibb.co/JjpFJ0z/PIZZA-NAPOLI-removebg-preview-2.png",
     title: 'PIZZA NAPOLI',
     price: '€12,20',
     tags: 'katkarapu | aurajuusto | rucola',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/PtHfcL7/PIZZA-CHICKEN-BBQ-removebg-preview-2.png",
     title: 'PIZZA CHICKEN BBQ',
     price: '€12,80',
     tags: 'kana | punasipuli | mozzarella | rucola | bbq-kastike',
   },
   {
-    image: "https://i.ibb.co/3CQrtGZ/PIZZA-SALAMI-removebg-preview-2.png",
+    image: "https://i.ibb.co/KKQXXQ6/PIZZA-SALAMI-removebg-preview-2.png",
     title: 'PIZZA SALAMI',
     price: '€10,80',
     tags: 'tupla salami',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/WgxzmDL/PIZZA-GREEN-DAY-removebg-preview-3.png",
     title: 'PIZZA GREEN DAY',
     price: '€10,80',
     tags: 'paprika | punasipuli | kapris | kirsikka tomaatti | rucola',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/mB9RHVv/PIZZA-FANTASIA-removebg-preview-2.png",
     title: 'PIZZA FANTASIA',
     price: '€12,80',
     tags: 'oma valinta neljalla taytteella',
   },
   {
-    image: "https://i.ibb.co/6vNqcw7/Pizza-peparoni-2-removebg-preview.png",
+    image: "https://i.ibb.co/4JSQV20/pepperoni-2.png",
     title: 'PIZZA PEPPERONI',
     price: '€9,90',
     tags: 'tupla pepperoni',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/kQ2Dnxq/PIZZA-MAXICANA-SPECIAL-removebg-preview-2.png",
     title: 'PIZZA MEXICANA SPECIAL',
     price: '€12,90',
     tags: 'jauheliha | pepperoni | jalopeno | paprika | chilikastike',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/CVy1tpz/ezgif-6-743cb95f95-removebg-preview-2.png",
     title: 'PIZZA DILLINGER',
     price: '€12,90',
     tags: 'salami | jauheliha | pepperoni | sipuli',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/D4qXmQS/chicken-havai-removebg-preview-2.png",
     title: 'PIZZA CHICKEN HAWAII',
     price: '€11,90',
     tags: 'kana | ananas | aurajuusto',
   },
   {
-    image: "https://i.ibb.co/HVkwkJq/PIZZA-ROMEO-removebg-preview-2.png",
+    image: "https://i.ibb.co/ts98PSD/Romeo-400x400-removebg-preview-2.png",
     title: 'PIZZA ROMEO',
     price: '€12,90',
     tags: 'salami | ananas | aurajuusto | katkarapu',
@@ -143,36 +143,36 @@ const pizzat = [
 
 const lisätäyttet = [
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/F0MGPdr/IMG-20240507-010034-removebg-preview.png",
     title: 'LIHA',
     price: '€1,50',
-    tags: 'Pepperoni',
+    tags: 'pepperoni | salami | kebab | kana',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/y5GVv4d/IMG-20240507-005950-removebg-preview.png",
     title: 'KALA',
     price: '€1,50',
-    tags: 'Katkarapu',
+    tags: 'katkarapu',
   },
   {
-    image: "https://plus.unsplash.com/premium_photo-1673439305009-821f62df6d31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://i.ibb.co/LkWqTKW/IMG-20240507-010119-removebg-preview.png",
     title: 'KASVIS',
     price: '€1,50',
-    tags: 'salami | ananas | aurajuusto | katkarapu',
+    tags: 'aura justo | ananas | olive | jelpeno | tomatti | feta',
   },
 ];
 
 
 const vegeMenu = [
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/s5YtdLH/PITA-LEIVALLA-VONER-FALAFEL-removebg-preview-2.png",
     choose: "valitse liha: vöner/falafel",
     title: 'PITALEIVALLA',
     price: '€9,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/CJLQ8Lv/KEBAB-RANSKALAISILLA-VONER-FALAFEL-removebg-preview.png",
     choose: "valitse liha: vöner/falafel",
     title: 'RIISILLA / RANSKALAISILLA',
     price: '€10,90',
@@ -181,7 +181,7 @@ const vegeMenu = [
 ]
 const salaatit = [
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/WsqycNm/CEASER-SALATTI-removebg-preview-2.png",
     choose: "valitse: kana / katkarapu",
     title: 'CAESAR SALAATTI',
     price: '€12,90',
@@ -195,7 +195,7 @@ const salaatit = [
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/YkrCDkr/GREEK-SALATTI-removebg-preview-2.png",
     choose: "",
     title: 'GREEK SALAATTI',
     price: '€11,80',
@@ -210,35 +210,35 @@ const extrat2 = [
   {
     image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
     choose: "",
-    title: 'TUPLA LILA KANA',
+    title: 'TUPLALIHA KANA',
     price: '€4,00',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/NrCMkWP/IMG-20240507-012327.jpg",
     choose: "",
     title: 'JUSTO / AURA / FETA',
     price: '€2,00',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/QHt2dJr/IMG-20240507-012211.jpg",
     choose: "",
     title: 'RANSKA',
     price: '€3,50',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/XsKvn9w/IMG-20240507-012228.jpg",
     choose: "",
     title: 'VONER / FALAFEL',
     price: '€4,00',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/S3hdXGr/IMG-20240507-012308-removebg-preview-2.png",
     choose: "",
-    title: 'TO BE ADDED LATER',
+    title: 'Gluteeniton Pizzapohja',
     price: '€3,00',
     tags: '',
   },
@@ -248,37 +248,37 @@ const extrat2 = [
 
 const drinks = [
   {
-    image: "https://i.ibb.co/27Gq74H/coke.jpg",
+    image: "https://www.shutterstock.com/image-photo/moscow-russia-june-13-2015-600nw-286752986.jpg",
     choose: "",
-    title: 'Coca-cola ___ 330ml/500ml/1.5L',
+    title: 'Coca-cola - 330ml/500ml/1.5L',
     price: '€ 2,50/4,00/6,00',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/5KwbXTd/coke-zero.jpg",
+    image: "https://assets.superliquor.co.nz/thumbs/0007813.jpeg",
     choose: "",
-    title: 'Coca-cola zero ___ 330ml/500ml/1.5L',
+    title: 'Coca-cola zero - 330ml/500ml/1.5L',
     price: '€ 2,50/4,00/6,00',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/4MHmB3t/coke-sprite.jpg",
+    image: "https://target.scene7.com/is/image/Target/GUEST_d20d55ba-2140-40ce-9899-484a25ba090c?wid=488&hei=488&fmt=pjpeg",
     choose: "",
-    title: 'Sprite zero ___ 330ml',
+    title: 'Sprite zero - 330ml',
     price: '€2,50',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/nzqFqdx/coke-fanta.jpg",
+    image: "https://c8.alamy.com/comp/2HNT5TT/fanta-orange-lemonade-soft-drink-in-a-plastic-bottle-on-ice-cubes-portrait-format-2HNT5TT.jpg",
     choose: "",
-    title: 'Fanta (applesini) ___ 330ml',
+    title: 'Fanta (applesini) - 330ml',
     price: '€2,50',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/6RF3X54/coke-fanta1.jpg",
+    image: "https://www.coca-cola.com/content/dam/onexp/ng/home-image/brands/fanta/fanta=zero-desk%20.jpg",
     choose: "",
-    title: 'Fanta ___ 500ml',
+    title: 'Fanta - 500ml',
     price: '€4,00',
     tags: '',
   },

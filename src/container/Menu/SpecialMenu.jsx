@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { SubHeading, MenuItem } from '../../components';
+import MenuItem2 from '../../components/Menuitem2/MenuItem2';
 import { data, images } from '../../constants';
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (
-  <div className="app__specialMenu flex__center section__padding" id="menu">
+  <div className="app__specialMenu flex__center section__padding pb-28" id="menu">
     <div className="app__specialMenu__background"></div>
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
@@ -40,10 +41,10 @@ const SpecialMenu = () => (
     {/* ----------------------------------------------------- */}
     <div className="app__specialMenu-menu app__specialMenu-menu2">
       <div className="app__specialMenu-menu_wine  flex__center">
-        <p className="app__specialMenu-menu_heading">Pizza lisätäyttet</p>
+        <p className="app__specialMenu-menu_heading">Drinks</p>
         <div className="app__specialMenu_menu_items">
           {data.drinks.map((wine, index) => (
-            <MenuItem key={wine.title + index} image={wine.image} title={wine.title} price={wine.price} choose={wine.choose} tags={wine.tags} />
+            <MenuItem2 key={wine.title + index} image={wine.image} title={wine.title} price={wine.price} choose={wine.choose} tags={wine.tags} />
           ))}
         </div>
       </div>
@@ -53,7 +54,7 @@ const SpecialMenu = () => (
       </div> */}
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Vege Menu</p>
+        <p className="app__specialMenu-menu_heading">Extrat</p>
         <div className="app__specialMenu_menu_items">
           {data.extrat2.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
@@ -80,7 +81,7 @@ const SpecialMenu = () => (
       </div> */}
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Extrat</p>
+        <p className="app__specialMenu-menu_heading">Veg Menu</p>
         <div className="app__specialMenu_menu_items">
           {data.vegeMenu.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
@@ -88,7 +89,7 @@ const SpecialMenu = () => (
         </div>
       </div>
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Drinks</p>
+        <p className="app__specialMenu-menu_heading">Pizza lisätäyttet</p>
         <div className="app__specialMenu_menu_items">
           {data.lisätäyttet.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />

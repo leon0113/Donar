@@ -13,9 +13,10 @@ const App = () => (
     {/* <AboutUs /> */}
     {/* <Intro /> */}
     {/* <Laurels /> */}
+    <Gallery />
     <FindUs />
     <Chef />
-    <Gallery />
+
     <Footer />
   </div>
 );
