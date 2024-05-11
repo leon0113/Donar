@@ -250,15 +250,15 @@ const drinks = [
   {
     image: "https://www.shutterstock.com/image-photo/moscow-russia-june-13-2015-600nw-286752986.jpg",
     choose: "",
-    title: 'Coca-cola - 330ml/500ml/1.5L',
-    price: '€ 2,50/4,00/6,00',
+    title: 'Coca - cola - 330ml/500ml/1.5L',
+    price: '€2,50/4,00/6,00',
     tags: '',
   },
   {
     image: "https://assets.superliquor.co.nz/thumbs/0007813.jpeg",
     choose: "",
     title: 'Coca-cola zero - 330ml/500ml/1.5L',
-    price: '€ 2,50/4,00/6,00',
+    price: '€2,50/4,00/6,00',
     tags: '',
   },
   {

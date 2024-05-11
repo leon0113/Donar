@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { SubHeading, MenuItem } from '../../components';
 import MenuItem2 from '../../components/Menuitem2/MenuItem2';
+import MenuItem3 from '../../components/MenuItem3/MenuItem3';
 import { data, images } from '../../constants';
 import './SpecialMenu.css';
 
@@ -71,7 +72,7 @@ const SpecialMenu = () => (
         <p className="app__specialMenu-menu_heading">Salaatit</p>
         <div className="app__specialMenu_menu_items">
           {data.salaatit.map((wine, index) => (
-            <MenuItem key={wine.title + index} image={wine.image} title={wine.title} price={wine.price} choose={wine.choose} tags={wine.tags} />
+            <MenuItem3 key={wine.title + index} image={wine.image} title={wine.title} price={wine.price} choose={wine.choose} tags={wine.tags} />
           ))}
         </div>
       </div>
@@ -84,7 +85,7 @@ const SpecialMenu = () => (
         <p className="app__specialMenu-menu_heading">Veg Menu</p>
         <div className="app__specialMenu_menu_items">
           {data.vegeMenu.map((cocktail, index) => (
-            <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
+            <MenuItem3 key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
           ))}
         </div>
       </div>
@@ -92,7 +93,7 @@ const SpecialMenu = () => (
         <p className="app__specialMenu-menu_heading">Pizza lisätäyttet</p>
         <div className="app__specialMenu_menu_items">
           {data.lisätäyttet.map((cocktail, index) => (
-            <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
+            <MenuItem3 key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
           ))}
         </div>
       </div>

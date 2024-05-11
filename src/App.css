@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 .section__padding {
   padding: 0rem 6rem;
 }
@@ -8,8 +8,8 @@
   justify-content: center;
   align-items: center;
 }
-.footer_bg{
-  background: url('./assets/footer.jpg');
+.footer_bg {
+  background: url("./assets/footer.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -63,17 +63,18 @@
 
 .custom__button {
   background-color: var(--color-crimson);
-    color: var(--color-black);
-    font-family: var(--font-base);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    line-height: 28px;
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    border-radius: 1px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  /* background-color: rgb(253, 249, 4); */
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .p__cormorant {
@@ -82,7 +83,7 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: 'tnum' on, 'lnum' on;
+  font-feature-settings: "tnum" on, "lnum" on;
   line-height: 29.9px;
   font-size: 23px;
 }
@@ -98,7 +99,7 @@
   font-size: 18px;
 }
 
-.p__email{
+.p__email {
   text-transform: none;
 }
 
@@ -165,7 +166,7 @@
   .section__padding {
     padding: 0rem 1rem;
   }
-  
+
   .p__cormorant {
     font-size: 21px;
   }

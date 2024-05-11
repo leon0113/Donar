@@ -2,6 +2,7 @@ import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
+import ToggleSwitch from '../Switch/Switch'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -21,7 +22,9 @@ const Navbar = () => {
       <div className="app__navbar-login">
         {/* <a href="#login" className="p__opensans text-blue-400">Log In / Registration</a>
         <div /> */}
-        <a href="/" className="p__opensans text-blue-600">Book Table</a>
+        {/* <a href="/" className="p__opensans text-blue-600">Book Table</a> */}
+        {/* <ToggleSwitch /> */}
+
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
