@@ -5,23 +5,16 @@ const ToggleSwitch = () => {
 
     const toggleSwitch = () => {
         setIsChecked(prevState => !prevState);
+        // console.log(isChecked);
     };
 
     return (
-        <div className="flex items-center justify-center">
-            <label htmlFor="toggle" className="flex items-center cursor-pointer">
-                <div className="relative">
-                    <input
-                        id="toggle"
-                        type="checkbox"
-                        className="hidden"
-                        checked={isChecked}
-                        onChange={toggleSwitch}
-                    />
-                    <div className="toggle__line w-10 h-4 bg-gray-400 rounded-full shadow-inner"></div>
-                    <div className={`toggle__dot absolute w-6 h-6 bg-white rounded-full shadow -left-1 ${isChecked ? 'bg-green-400' : 'bg-gray-400'}`}></div>
-                </div>
-                <div className="ml-3 text-gray-700 font-medium">Toggle</div>
+        <div className="p-2">
+            <label htmlFor="check" className="flex bg-slate-700 cursor-pointer relative w-20 h-10 rounded-full">
+                <span className="text-white absolute left-2 top-1 text-xl z-10">En</span>
+                <input onClick={toggleSwitch} type="checkbox" id="check" className="sr-only peer" />
+                <span className="w-2/5 h-4/5 bg-yellow-500 absolute rounded-full left-1 top-1 peer-checked:left-11 transition-all duration-500" />
+                <span className="text-white absolute left-12 top-1 text-xl z-10">Fn</span>
             </label>
         </div>
     );

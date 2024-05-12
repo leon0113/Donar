@@ -12,6 +12,7 @@ import pizza from '../assets/pizza.png'
 import ceaser from '../assets/ceaser1.png'
 import donarbox from '../assets/donarbox1.png'
 import kebab1 from '../assets/Kebab11.png'
+import footerImg from '../assets/res-col.jpg'
 
 
 export default {
@@ -27,5 +28,6 @@ export default {
   kebab1,
   pizza,
   ceaser,
-  donarbox
+  donarbox,
+  footerImg,
 };

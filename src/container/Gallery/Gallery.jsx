@@ -6,10 +6,10 @@ import { SubHeading } from '../../components';
 import './Gallery.css';
 
 const imgArr = [
-  "https://i.ibb.co/WGFdS1B/KEBAB-PITALEIVALLA-removebg-preview.png",
+  "https://i.ibb.co/K9ZftqM/res1.jpg",
   "https://i.ibb.co/FDbQQrD/Kana-Ranskalaisilla-removebg-preview.png",
+  "https://i.ibb.co/sJppqW8/res3.jpg",
   "https://i.ibb.co/1zMJrSC/ISKANDER-KEBAB-removebg-preview-1.png",
-  "https://i.ibb.co/JjpFJ0z/PIZZA-NAPOLI-removebg-preview-2.png",
   "https://i.ibb.co/KKQXXQ6/PIZZA-SALAMI-removebg-preview-2.png",
   "https://i.ibb.co/WgxzmDL/PIZZA-GREEN-DAY-removebg-preview-3.png ",
   "https://i.ibb.co/kQ2Dnxq/PIZZA-MAXICANA-SPECIAL-removebg-preview-2.png",
@@ -29,7 +29,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div className="app__gallery flex__center" id='gallery'>
       <div className="app__gallery-content">
         <SubHeading title="Donar House" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
@@ -40,11 +40,11 @@ const Gallery = () => {
           {imgArr.map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
-              <BsInstagram className="gallery__image-icon" />
+              {/* <BsInstagram className="gallery__image-icon" /> */}
             </div>
           ))}
         </div>
-        <div className="app__gallery-images_arrows">
+        <div className="app__gallery-images_arrows ">
           <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => scroll('left')} />
           <BsArrowRightShort className="gallery__arrow-icon" onClick={() => scroll('right')} />
         </div>
