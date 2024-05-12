@@ -11,10 +11,12 @@ const FindUs = () => (
         <p className="p__opensans">Phone: 041 5731795</p>
         <p className="p__opensans p__email">Email: donarHouse@gmail.com</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Opening Hours</p>
-        <p className="p__opensans">Mon - Fri: 10:00 am - 02:00 am</p>
-        <p className="p__opensans">Sat - Sun: 10:00 am - 03:00 am</p>
+        <p className="p__opensans">Mon - Thu: 11:00 am - 10:00 pm</p>
+        <p className="p__opensans">Fri : 11:00 am - 02:00 am</p>
+        <p className="p__opensans">Sat : 11:30 am - 02:00 am</p>
+        <p className="p__opensans">Sun : 11:30 am - 10:00 pm</p>
       </div>
-      <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>Call Us</button>
+      <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out" style={{ marginTop: '2rem' }}>Call Us</button>
     </div>
 
     <div className="app__wrapper_img">

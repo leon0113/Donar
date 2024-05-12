@@ -9,7 +9,7 @@ const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding pb-28" id="menu">
     <div className="app__specialMenu__background"></div>
     <div className="app__specialMenu-title">
-      <SubHeading title="Menu that fits your palatte" />
+      <SubHeading title=" Join us at Donar House, where every meal is a celebration of taste and tradition." />
       <h1 className="headtext__cormorant">Today&apos;s Special</h1>
     </div>
     {/* ----------------------------------------------------- */}
@@ -37,7 +37,9 @@ const SpecialMenu = () => (
       </div>
     </div>
     <div style={{ marginTop: 15, marginBottom: 15 }}>
-      <button type="button" className="custom__button">Order Now!</button>
+      <a href="tel:+1234567890">
+        <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
+      </a>
     </div>
     {/* ----------------------------------------------------- */}
     <div className="app__specialMenu-menu app__specialMenu-menu2">
@@ -64,7 +66,9 @@ const SpecialMenu = () => (
       </div>
     </div>
     <div style={{ marginTop: 15, marginBottom: 15 }}>
-      <button type="button" className="custom__button">Order Now!</button>
+      <a href="tel:+1234567890">
+        <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
+      </a>
     </div>
     {/* ------------------------------------------------- */}
     <div className="app__specialMenu-menu app__specialMenu-menu2">
@@ -115,7 +119,9 @@ const SpecialMenu = () => (
       </div> */}
     {/* </div>  */}
     <div style={{ marginTop: 15, marginBottom: 15 }}>
-      <button type="button" className="custom__button">Order Now!</button>
+      <a href="tel:+1234567890">
+        <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
+      </a>
     </div>
   </div>
 );

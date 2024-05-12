@@ -31,13 +31,10 @@ export default function SwiperJs() {
                 className="mySwiper"
             >
                 <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
+                <SwiperSlide><img src={images.pizza} alt="header_img" /></SwiperSlide>
+                <SwiperSlide><img src={images.ceaser} alt="header_img" /></SwiperSlide>
+                <SwiperSlide><img src={images.donarbox} alt="header_img" /></SwiperSlide>
+                {/* <SwiperSlide><img src={images.kebab1} alt="header_img" /></SwiperSlide> */}
             </Swiper>
         </>
     );

@@ -8,6 +8,10 @@ import burger1 from '../assets/burger1.jpg'
 import headerBg from '../assets/headerBg1.jpg'
 import res from '../assets/res1.jpg'
 import kebab from '../assets/KEBAB.png'
+import pizza from '../assets/pizza.png'
+import ceaser from '../assets/ceaser1.png'
+import donarbox from '../assets/donarbox1.png'
+import kebab1 from '../assets/Kebab11.png'
 
 
 export default {
@@ -19,5 +23,9 @@ export default {
   quote,
   burger1,
   headerBg,
-  kebab
+  kebab,
+  kebab1,
+  pizza,
+  ceaser,
+  donarbox
 };

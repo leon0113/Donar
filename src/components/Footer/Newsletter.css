@@ -1,20 +1,21 @@
 .app__newsletter {
-    margin-top: 80px;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    padding: 2rem 4rem;
-    border: 1px solid var(--color-golden);
-    background: var(--color-black);
+  margin-top: 80px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  padding: 2rem 4rem;
+  border: 1px solid var(--color-golden);
+  background: var(--color-black);
+  position: relative;
 }
 
 .app__newsletter-heading {
-    text-align: center;
+  text-align: center;
 }
 
 .app__newsletter-input {
-    flex-direction: row;
-    margin-top: 3rem;
+  flex-direction: row;
+  margin-top: 3rem;
 }
 
 /* .app__newsletter-input input {
@@ -31,54 +32,86 @@
 } */
 
 .app__newsletter-input button {
-    width: max-content;
+  width: max-content;
 }
 
-.footer_phone_icon{
-    width: 50px;
-    height: 50px;
-    color: white;
-    background-color: goldenrod;
-    padding: 10px;
-    border-radius: 50%;
+.footer_phone_icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: goldenrod;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: circle 5s linear infinite;
+  animation: circle 5s linear infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-195px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-195px) rotate(-360deg);
+  }
 }
 
 @media screen and (min-width: 2000px) {
-    .app__newsletter-input input {
-        font-size: 2rem;
-    }
+  .app__newsletter-input input {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 990px) {
-    .app__newsletter-input {
-        flex-direction: column;
-        width: 100%;
-    }
+  .app__newsletter-input {
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .app__newsletter-input input {
-        margin: 0 0 2rem 0;
-        width: 100%;
-    }
+  .app__newsletter-input input {
+    margin: 0 0 2rem 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .app__newsletter{
-        width: 350px;
-        height: 350px;   
-        padding-top: 50px;
+  .app__newsletter {
+    width: 320px;
+    height: 320px;
+    padding-top: 50px;
+  }
+  .app__newsletter {
+    padding: 2rem 0;
+    /* border: none; */
+  }
+
+  @keyframes circle {
+    0% {
+      transform: rotate(0deg) translate(-155px) rotate(0deg);
     }
-    .app__newsletter {
-        padding: 2rem 0;
-        border: none;
+    100% {
+      transform: rotate(360deg) translate(-155px) rotate(-360deg);
     }
+  }
 }
 
 @media screen and (max-width: 300px) {
-    .app__newsletter-heading h1 {
-        font-size: 32px;
-        line-height: 50px;
-    }
-    .app__newsletter {
-        margin-top: 50px;
-    }
+  .app__newsletter {
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+  }
+  .app__newsletter-heading h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .app__newsletter {
+    margin-top: 50px;
+  }
 }

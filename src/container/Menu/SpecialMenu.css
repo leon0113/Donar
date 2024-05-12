@@ -124,10 +124,19 @@
     font-size: 35px;
     line-height: 48.5px;
   }
+  .app__specialMenu_menu_items {
+    align-items: center;
+  }
 
   .app__specialMenu-menu_wine,
   .app__specialMenu-menu_cocktails {
     padding: 0;
     gap: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .app__specialMenu_menu_items {
+    align-items: center;
   }
 }
