@@ -26,17 +26,17 @@ const Navbar = () => {
       {/* <a href="/" className="p__opensans text-blue-600">Book Table</a> */}
 
       {/* </div> */}
-      <div className="app__navbar-smallscreen">
+      <div className="app__navbar-smallscreen transition duration-500">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
-              <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
-              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a></li>
-              <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
+              <li><a href="#gallery" onClick={() => setToggleMenu(false)}>Gallery</a></li>
+              <li><a href="#motive" onClick={() => setToggleMenu(false)}>Motive</a></li>
+              <li><a href="#contact" onClick={() => setToggleMenu(false)}>Location</a></li>
             </ul>
           </div>
         )}

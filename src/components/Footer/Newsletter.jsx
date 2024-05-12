@@ -3,7 +3,7 @@ import SubHeading from '../SubHeading/SubHeading';
 import './Newsletter.css';
 
 const Newsletter = () => (
-  <a href="tel:+1234567890">
+  <a href="tel:+041 5731795">
     <div className="app__newsletter hover:bg-gray-900 cursor-pointer">
       <div className="app__newsletter-heading">
         <SubHeading title="Donar House" />

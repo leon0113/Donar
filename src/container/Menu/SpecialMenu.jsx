@@ -37,7 +37,7 @@ const SpecialMenu = () => (
       </div>
     </div>
     <div style={{ marginTop: 15, marginBottom: 15 }}>
-      <a href="tel:+1234567890">
+      <a href="tel:+041 5731795">
         <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
       </a>
     </div>
@@ -66,7 +66,7 @@ const SpecialMenu = () => (
       </div>
     </div>
     <div style={{ marginTop: 15, marginBottom: 15 }}>
-      <a href="tel:+1234567890">
+      <a href="tel:+041 5731795">
         <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
       </a>
     </div>
@@ -119,7 +119,7 @@ const SpecialMenu = () => (
       </div> */}
     {/* </div>  */}
     <div style={{ marginTop: 15, marginBottom: 15 }}>
-      <a href="tel:+1234567890">
+      <a href="tel:+041 5731795">
         <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
       </a>
     </div>
