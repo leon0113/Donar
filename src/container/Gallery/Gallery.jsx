@@ -31,7 +31,7 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center" id='gallery'>
       <div className="app__gallery-content">
-        <SubHeading title="Donar House" />
+        <SubHeading title="Doner House" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.</p>
       </div>

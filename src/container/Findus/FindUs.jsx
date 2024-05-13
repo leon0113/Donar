@@ -9,7 +9,7 @@ const FindUs = () => (
         <p className="p__opensans">Tenderinlenkki 6B LTK3, 00520 Helsinki, Finland</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Contact</p>
         <p className="p__opensans">Phone: 041 5731795</p>
-        <p className="p__opensans p__email">Email: donarHouse@gmail.com</p>
+        <p className="p__opensans p__email">Email: donerHouse@gmail.com</p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Opening Hours</p>
         <p className="p__opensans">Mon - Thu: 11:00 am - 10:00 pm</p>
         <p className="p__opensans">Fri : 11:00 am - 02:00 am</p>

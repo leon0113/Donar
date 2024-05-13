@@ -12,7 +12,7 @@ const MenuItem2 = ({ image, title, price, tags, choose }) => (
                 </div>
                 {/* <div className="app__menuitem-dash" /> */}
                 <div className="app__menuitem-price1">
-                    {title.includes("Coca") ? <p className="p__cormorant text-sm  sm:text-xl ">{price}</p> : <p className="p__cormorant text-base md:text-2xl ">{price}</p>}
+                    {title.includes("Coca") ? <p className="p__cormorant text-xs sm:text-sm md:text-base ">{price}</p> : <p className="p__cormorant text-base md:text-2xl ">{price}</p>}
                 </div>
             </div>
 

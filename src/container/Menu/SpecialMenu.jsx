@@ -9,7 +9,7 @@ const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding pb-28" id="menu">
     <div className="app__specialMenu__background"></div>
     <div className="app__specialMenu-title">
-      <SubHeading title=" Join us at Donar House, where every meal is a celebration of taste and tradition." />
+      <SubHeading title=" Join us at Doner House, where every meal is a celebration of taste and tradition." />
       <h1 className="headtext__cormorant">Today&apos;s Special</h1>
     </div>
     {/* ----------------------------------------------------- */}

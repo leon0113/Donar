@@ -16,7 +16,7 @@ const Chef = () => (
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">At Donar House, our motive is simple yet profound: </p>
+          <p className="p__opensans">At Doner House, our motive is simple yet profound: </p>
         </div>
         <p className="p__opensans">to celebrate the rich tapestry of Finnish cuisine while offering a warm and inviting dining experience. We are committed to crafting culinary delights that not only tantalize the taste buds but also honor the traditions and flavors unique to Finland.</p>
       </div>
