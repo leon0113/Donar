@@ -10,7 +10,7 @@ const menu = [
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/9Wqdyqw/DONER-JR-BOX-removebg-preview-2.png",
+    image: "https://i.ibb.co/sC3Qzhp/DONER-JR-BOX-1-removebg-preview-2.png",
     choose: "valitse liha: nauta/kana",
     title: 'DONER BOX JR',
     price: '€7,50',
@@ -52,7 +52,7 @@ const menu = [
     tags: 'paahdettua pide-leipa kuutiota | tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali |  marinoitu punasipuli | yrtit',
   },
   {
-    image: "https://i.ibb.co/9NBdj09/TALON-SPESSU-removebg-preview-2.png",
+    image: "https://i.ibb.co/WzYSbYY/TALON-SPESSU-removebg-preview-2.png",
     choose: "valitse proteiini: nauta/voner/falafel,ranskalaiset",
     title: 'TALON SPESSU',
     price: '€13,50',
@@ -62,7 +62,7 @@ const menu = [
 
 const pizzat = [
   {
-    image: "https://i.ibb.co/1Rkb8F8/1-Bolognese-1536x1024-removebg-preview-2.png",
+    image: "https://i.ibb.co/wJZWxbq/PIZZA-CLASSIC-BOLOGNESE-removebg-preview-2.png",
     title: 'CLASSIC BOLOGNESE',
     price: '€10,20',
     tags: 'home made jauheliha kastike',
@@ -80,7 +80,7 @@ const pizzat = [
     tags: 'kebab | punasipuli | chilli | tomatti | feta',
   },
   {
-    image: "https://i.ibb.co/JjpFJ0z/PIZZA-NAPOLI-removebg-preview-2.png",
+    image: "https://i.ibb.co/5jpP4nQ/PIZZA-NAPOLI-removebg-preview-2.png",
     title: 'PIZZA NAPOLI',
     price: '€12,20',
     tags: 'katkarapu | aurajuusto | rucola',
@@ -92,7 +92,7 @@ const pizzat = [
     tags: 'kana | punasipuli | mozzarella | rucola | bbq-kastike',
   },
   {
-    image: "https://i.ibb.co/KKQXXQ6/PIZZA-SALAMI-removebg-preview-2.png",
+    image: "https://i.ibb.co/S0Ks4VT/PIZZA-SALAMI-removebg-preview.png",
     title: 'PIZZA SALAMI',
     price: '€10,80',
     tags: 'tupla salami',
@@ -104,37 +104,37 @@ const pizzat = [
     tags: 'paprika | punasipuli | kapris | kirsikka tomaatti | rucola',
   },
   {
-    image: "https://i.ibb.co/mB9RHVv/PIZZA-FANTASIA-removebg-preview-2.png",
+    image: "https://i.ibb.co/Ld0QNTD/PIZZA-FANTASIA-removebg-preview.png",
     title: 'PIZZA FANTASIA',
     price: '€12,80',
     tags: 'oma valinta neljalla taytteella',
   },
   {
-    image: "https://i.ibb.co/4JSQV20/pepperoni-2.png",
+    image: "https://i.ibb.co/6vsNPsM/PIZZA-PEPPERONI-removebg-preview-2.png",
     title: 'PIZZA PEPPERONI',
     price: '€9,90',
     tags: 'tupla pepperoni',
   },
   {
-    image: "https://i.ibb.co/kQ2Dnxq/PIZZA-MAXICANA-SPECIAL-removebg-preview-2.png",
+    image: "https://i.ibb.co/ry3yJ1G/Capture-removebg-preview.png",
     title: 'PIZZA MEXICANA SPECIAL',
     price: '€12,90',
     tags: 'jauheliha | pepperoni | jalopeno | paprika | chilikastike',
   },
   {
-    image: "https://i.ibb.co/CVy1tpz/ezgif-6-743cb95f95-removebg-preview-2.png",
+    image: "https://i.ibb.co/J76vsZ5/PIZZA-DILLINGER-removebg-preview-2.png",
     title: 'PIZZA DILLINGER',
     price: '€12,90',
     tags: 'salami | jauheliha | pepperoni | sipuli',
   },
   {
-    image: "https://i.ibb.co/D4qXmQS/chicken-havai-removebg-preview-2.png",
+    image: "https://i.ibb.co/WpZWJZ0/PIZZA-CHICKEN-HAWAI-2-removebg-preview.png",
     title: 'PIZZA CHICKEN HAWAII',
     price: '€11,90',
     tags: 'kana | ananas | aurajuusto',
   },
   {
-    image: "https://i.ibb.co/ts98PSD/Romeo-400x400-removebg-preview-2.png",
+    image: "https://i.ibb.co/93p1FK0/PIZZA-ROMEO-1-removebg-preview-2.png",
     title: 'PIZZA ROMEO',
     price: '€12,90',
     tags: 'salami | ananas | aurajuusto | katkarapu',
@@ -162,7 +162,6 @@ const lisätäyttet = [
   },
 ];
 
-
 const vegeMenu = [
   {
     image: "https://i.ibb.co/s5YtdLH/PITA-LEIVALLA-VONER-FALAFEL-removebg-preview-2.png",
@@ -178,10 +177,11 @@ const vegeMenu = [
     price: '€10,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
-]
+];
+
 const salaatit = [
   {
-    image: "https://i.ibb.co/WsqycNm/CEASER-SALATTI-removebg-preview-2.png",
+    image: "https://i.ibb.co/HHbyYkP/Ceaser-SALATTI-r.png",
     choose: "valitse: kana / katkarapu",
     title: 'CAESAR SALAATTI',
     price: '€12,90',
@@ -203,12 +203,9 @@ const salaatit = [
   },
 ];
 
-
-
-
 const extrat2 = [
   {
-    image: "https://i.ibb.co/5FN2qHk/burger1.jpg",
+    image: "https://i.ibb.co/fMPY1TG/TUPLA-LIHA-Nauta-kana-removebg-preview.png",
     choose: "",
     title: 'TUPLALIHA KANA',
     price: '€4,00',
@@ -244,7 +241,6 @@ const extrat2 = [
   },
 
 ];
-
 
 const drinks = [
   {
