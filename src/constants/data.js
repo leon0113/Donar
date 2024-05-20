@@ -164,14 +164,14 @@ const lisätäyttet = [
 
 const vegeMenu = [
   {
-    image: "https://i.ibb.co/s5YtdLH/PITA-LEIVALLA-VONER-FALAFEL-removebg-preview-2.png",
+    image: "https://i.ibb.co/85sgFGr/PITA-LEIVALLA-VONER-FALAFEL-removebg-preview-2-removebg-preview.png",
     choose: "valitse liha: vöner/falafel",
     title: 'PITALEIVALLA',
     price: '€9,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/CJLQ8Lv/KEBAB-RANSKALAISILLA-VONER-FALAFEL-removebg-preview.png",
+    image: "https://i.ibb.co/dMt12f3/Voner-Risilla-removebg-preview-2.png",
     choose: "valitse liha: vöner/falafel",
     title: 'RIISILLA / RANSKALAISILLA',
     price: '€10,90',
@@ -244,7 +244,7 @@ const extrat2 = [
 
 const drinks = [
   {
-    image: "https://www.shutterstock.com/image-photo/moscow-russia-june-13-2015-600nw-286752986.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3MpMqT1q2rr7-lkBgm9iAqnuDmKUHTzVqd3Om-5jYig&s",
     choose: "",
     title: 'Coca - cola ------- 330ml/500ml/1.5L',
     price: '€2,50/4,00/6,00',
@@ -272,7 +272,7 @@ const drinks = [
     tags: '',
   },
   {
-    image: "https://www.coca-cola.com/content/dam/onexp/ng/home-image/brands/fanta/fanta=zero-desk%20.jpg",
+    image: "https://assets.superliquor.co.nz/thumbs/0005404.jpeg",
     choose: "",
     title: 'Fanta - 500ml',
     price: '€4,00',
