@@ -1,13 +1,16 @@
+/* eslint-disable no-unused-vars */
 import { useState } from 'react';
+import { useRecoilState } from 'recoil';
+import { lanAtom } from '../../atom';
 
 const ToggleSwitch = () => {
     const [isChecked, setIsChecked] = useState(false);
+    const [lan, setLan] = useRecoilState(lanAtom);
 
     const toggleSwitch = () => {
         setIsChecked(prevState => !prevState);
-        // console.log(isChecked);
+        setLan(prevLan => prevLan === 'en' ? 'fn' : 'en');
     };
-
     return (
         <div className="p-2">
             <label htmlFor="check" className="flex bg-gray-900 cursor-pointer relative w-20 h-10 rounded-full">

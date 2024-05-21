@@ -30,7 +30,7 @@ export default function SwiperJs() {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src={images.kebab} alt="header_img" /></SwiperSlide>
+                <SwiperSlide><img src={images.pizza1} alt="header_img" /></SwiperSlide>
                 <SwiperSlide><img src={images.pizza} alt="header_img" /></SwiperSlide>
                 <SwiperSlide><img src={images.ceaser} alt="header_img" /></SwiperSlide>
                 <SwiperSlide><img src={images.donarbox} alt="header_img" /></SwiperSlide>

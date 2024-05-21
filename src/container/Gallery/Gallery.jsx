@@ -3,6 +3,8 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
 import { SubHeading } from '../../components';
 import './Gallery.css';
+import { useRecoilValue } from 'recoil';
+import { lanAtom } from '../../atom';
 
 const imgArr = [
   "https://i.ibb.co/K9ZftqM/res1.jpg",
@@ -15,6 +17,7 @@ const imgArr = [
 ]
 
 const Gallery = () => {
+  const lan = useRecoilValue(lanAtom);
   const scrollRef = React.useRef(null);
 
   const scroll = (direction) => {
@@ -31,8 +34,10 @@ const Gallery = () => {
     <div className="app__gallery flex__center" id='gallery'>
       <div className="app__gallery-content">
         <SubHeading title="Doner House" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.</p>
+        <h1 className="headtext__cormorant">{lan === 'en' ? 'Photo Gallery' : 'Kuvagalleria'}</h1>
+        <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>{
+          lan === 'en' ? 'The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.' : 'Paras tapa löytää itsesi on hukata itsesi muiden palvelukseen.'
+        }</p>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

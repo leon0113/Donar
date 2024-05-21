@@ -3,7 +3,7 @@
 
 const menu = [
   {
-    image: "https://i.ibb.co/WGFdS1B/KEBAB-PITALEIVALLA-removebg-preview.png",
+    image: "https://i.ibb.co/JyXxFmT/IMG-20240309-202129-removebg-preview-removebg-preview.png",
     choose: "valitse liha: voner/falafel",
     title: 'KEBAB PITALEIVALLA',
     price: '€9,90',
@@ -17,42 +17,41 @@ const menu = [
     tags: 'tomaattikastiketta | ranskalaiset | ketsuppi',
   },
   {
-    image: "https://i.ibb.co/HCGyRFZ/KEBAB-RIISILLA.png",
+    image: "https://i.ibb.co/f8RzgM2/Kebab-Rissilaa-removebg-preview.png",
     choose: "valitse liha: nauta/kana",
     title: 'KEBAB RIISILLA',
     price: '€10,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/FDbQQrD/Kana-Ranskalaisilla-removebg-preview.png",
+    image: "https://i.ibb.co/2hrSKTx/KEBAB-Ranskalaiset-removebg-preview.png",
     choose: "valitse liha: nauta/kana",
     title: 'KEBAB RANSKALAISILLA',
     price: '€10,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/kyqgyN9/RULLA-KEBAB-removebg-preview-2.png",
-    choose: "valitse liha: nauta/kana",
+    image: "https://i.ibb.co/PWq1sF8/RULLA-KEBAB-RULLA-KEBAB-AURAJUUSTO-TAI-FETA-removebg-preview.png",
     title: 'RULLAKEBAB',
     price: '€11,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/kyqgyN9/RULLA-KEBAB-removebg-preview-2.png",
+    image: "https://i.ibb.co/PWq1sF8/RULLA-KEBAB-RULLA-KEBAB-AURAJUUSTO-TAI-FETA-removebg-preview.png",
     choose: "valitse liha: nauta/kana",
     title: 'RULLAKEBAB FETA TAI AURAJUUSTOLLA',
     price: '€13,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/1zMJrSC/ISKANDER-KEBAB-removebg-preview-1.png",
+    image: "https://i.ibb.co/dWNCBx7/KANA-ISKANDER-removebg-preview.png",
     choose: "valitse liha: nauta/kana",
     title: 'ISKENDER',
     price: '€11,90',
     tags: 'paahdettua pide-leipa kuutiota | tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali |  marinoitu punasipuli | yrtit',
   },
   {
-    image: "https://i.ibb.co/WzYSbYY/TALON-SPESSU-removebg-preview-2.png",
+    image: "https://i.ibb.co/9Z6kqn8/TALON-SPESSU-removebg-preview.png",
     choose: "valitse proteiini: nauta/voner/falafel,ranskalaiset",
     title: 'TALON SPESSU',
     price: '€13,50',
@@ -143,7 +142,7 @@ const pizzat = [
 
 const lisätäyttet = [
   {
-    image: "https://i.ibb.co/F0MGPdr/IMG-20240507-010034-removebg-preview.png",
+    image: "https://i.ibb.co/sjvk6YM/c.jpg",
     title: 'LIHA',
     price: '€1,50',
     tags: 'pepperoni | salami | kebab | kana',
@@ -171,7 +170,7 @@ const vegeMenu = [
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
   {
-    image: "https://i.ibb.co/dMt12f3/Voner-Risilla-removebg-preview-2.png",
+    image: "https://i.ibb.co/44r502G/Voner-Risilla-removebg-preview.png",
     choose: "valitse liha: vöner/falafel",
     title: 'RIISILLA / RANSKALAISILLA',
     price: '€10,90',
@@ -212,7 +211,7 @@ const extrat2 = [
     tags: '',
   },
   {
-    image: "https://i.ibb.co/NrCMkWP/IMG-20240507-012327.jpg",
+    image: "https://i.ibb.co/Yp4XSTN/Aura-juusto-Feta.jpg",
     choose: "",
     title: 'JUSTO / AURA / FETA',
     price: '€2,00',
@@ -265,7 +264,7 @@ const drinks = [
     tags: '',
   },
   {
-    image: "https://c8.alamy.com/comp/2HNT5TT/fanta-orange-lemonade-soft-drink-in-a-plastic-bottle-on-ice-cubes-portrait-format-2HNT5TT.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtrgyNLdQ2emYrkqXv_cyqUZY7XJGOlz2bNmoOGUGY3Q&s",
     choose: "",
     title: 'Fanta (applesini) - 330ml',
     price: '€2,50',

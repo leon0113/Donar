@@ -13,6 +13,11 @@ import ceaser from '../assets/ceaser1.png'
 import donarbox from '../assets/donarbox1.png'
 import kebab1 from '../assets/Kebab11.png'
 import footerImg from '../assets/res-col.jpg'
+import pizza1 from '../assets/DILLINGER.png'
+import rans from '../assets/Ranskalaiset.png'
+import risilla from '../assets/Risilla.png'
+import rulla from '../assets/RULLA.png'
+import talon from '../assets/TALON.png'
 
 
 export default {
@@ -30,4 +35,9 @@ export default {
   ceaser,
   donarbox,
   footerImg,
+  pizza1,
+  rans,
+  risilla,
+  rulla,
+  talon
 };
