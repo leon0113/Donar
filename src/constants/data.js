@@ -6,6 +6,7 @@ const menu = [
     image: "https://i.ibb.co/JyXxFmT/IMG-20240309-202129-removebg-preview-removebg-preview.png",
     choose: "valitse liha: voner/falafel",
     title: 'KEBAB PITALEIVALLA',
+    title1: 'CLASSIC Finnish',
     price: '€9,90',
     tags: 'tomaattikastiketta | tzatzikia | tomaatti-kurkkusalaatti | pikkeloity punakaali | marinoitu punasipuli',
   },
@@ -85,7 +86,7 @@ const pizzat = [
     tags: 'katkarapu | aurajuusto | rucola',
   },
   {
-    image: "https://i.ibb.co/PtHfcL7/PIZZA-CHICKEN-BBQ-removebg-preview-2.png",
+    image: "https://i.ibb.co/h8sJ1VT/PIZZA-CHICKEN-BBQ-removebg-preview.png",
     title: 'PIZZA CHICKEN BBQ',
     price: '€12,80',
     tags: 'kana | punasipuli | mozzarella | rucola | bbq-kastike',
@@ -187,7 +188,7 @@ const salaatit = [
     tags: '',
   },
   {
-    image: "https://i.ibb.co/LxQ8x0n/KEBAB-SALATTI-removebg-preview-2.png",
+    image: "https://i.ibb.co/QDB5Qb0/KEBAB-SALATTI-removebg-preview-2-removebg-preview.png",
     choose: "valitse: nauta / kana",
     title: 'KEBAB SALAATTI',
     price: '€10,50',
@@ -218,14 +219,14 @@ const extrat2 = [
     tags: '',
   },
   {
-    image: "https://i.ibb.co/QHt2dJr/IMG-20240507-012211.jpg",
+    image: "https://i.ibb.co/w7YxYk2/IMG-20240507-012211.jpg",
     choose: "",
     title: 'RANSKA',
     price: '€3,50',
     tags: '',
   },
   {
-    image: "https://i.ibb.co/XsKvn9w/IMG-20240507-012228.jpg",
+    image: "https://i.ibb.co/XVxCbP9/IMG-20240507-012228.jpg",
     choose: "",
     title: 'VONER / FALAFEL',
     price: '€4,00',
