@@ -42,7 +42,7 @@ const SpecialMenu = () => {
       </div>
       <div style={{ marginTop: 15, marginBottom: 15 }}>
         <a href="tel:+041 5731795">
-          <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
+          <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">{lan === 'fn' ? 'Tilaa nyt!' : 'Order Now!'}</button>
         </a>
       </div>
       {/* ----------------------------------------------------- */}
@@ -50,7 +50,7 @@ const SpecialMenu = () => {
       {/* ------------------------------------------------- */}
       <div className="app__specialMenu-menu app__specialMenu-menu2">
         <div className="app__specialMenu-menu_wine  flex__center">
-          <p className="app__specialMenu-menu_heading">Salaatit</p>
+          <p className="app__specialMenu-menu_heading">{lan === 'fn' ? 'Salaatit' : 'Salads'}</p>
           <div className="app__specialMenu_menu_items">
             {data.salaatit.map((wine, index) => (
               <MenuItem3 key={wine.title + index} image={wine.image} title={wine.title} title1={wine.title1} price={wine.price} choose={wine.choose} choose1={wine.choose1} tags={wine.tags} tags1={wine.tags1} />
@@ -71,7 +71,7 @@ const SpecialMenu = () => {
           </div>
         </div>
         <div className="app__specialMenu-menu_cocktails  flex__center">
-          <p className="app__specialMenu-menu_heading">Pizza lisätäyttet</p>
+          <p className="app__specialMenu-menu_heading">{lan === 'fn' ? 'Pizza lisätäyttet' : 'Pizza add-ons'}</p>
           <div className="app__specialMenu_menu_items">
             {data.lisätäyttet.map((cocktail, index) => (
               <MenuItem3 key={cocktail.title + index} image={cocktail.image} title={cocktail.title} title1={cocktail.title1} choose={cocktail.choose} choose1={cocktail.choose1} price={cocktail.price} tags={cocktail.tags} tags1={cocktail.tags1} />
@@ -97,7 +97,7 @@ const SpecialMenu = () => {
       {/* </div>  */}
       <div style={{ marginTop: 15, marginBottom: 15 }}>
         <a href="tel:+041 5731795">
-          <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
+          <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">{lan === 'fn' ? 'Tilaa nyt!' : 'Order Now!'}</button>
         </a>
       </div>
 
@@ -117,7 +117,7 @@ const SpecialMenu = () => {
       </div> */}
 
         <div className="app__specialMenu-menu_cocktails  flex__center">
-          <p className="app__specialMenu-menu_heading">Extrat</p>
+          <p className="app__specialMenu-menu_heading">{lan === 'fn' ? 'Extrat' : 'Extra'}</p>
           <div className="app__specialMenu_menu_items">
             {data.extrat2.map((cocktail, index) => (
               <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} title1={cocktail.title1} choose={cocktail.choose} choose1={cocktail.choose1} price={cocktail.price} tags={cocktail.tags} tags1={cocktail.tags1} />
@@ -127,7 +127,7 @@ const SpecialMenu = () => {
       </div>
       <div style={{ marginTop: 15, marginBottom: 15 }}>
         <a href="tel:+041 5731795">
-          <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">Order Now!</button>
+          <button type="button" className="custom__button text-black bg-yellow-300 hover:bg-red-500  font-bold py-2 px-4  transition duration-300 ease-in-out">{lan === 'fn' ? 'Tilaa nyt!' : 'Order Now!'}</button>
         </a>
       </div>
     </div>
