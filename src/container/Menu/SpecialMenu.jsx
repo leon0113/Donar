@@ -22,7 +22,7 @@ const SpecialMenu = () => {
           <p className="app__specialMenu-menu_heading2">Menu</p>
           <div className="app__specialMenu_menu_items">
             {data.menu.map((wine, index) => (
-              <MenuItem key={wine.title + index} image={wine.image} title={wine.title} title1={wine.title1} choose={wine.choose} price={wine.price} tags={wine.tags} />
+              <MenuItem key={wine.title + index} image={wine.image} title={wine.title} title1={wine.title1} choose={wine.choose} choose1={wine.choose1} price={wine.price} tags={wine.tags} tags1={wine.tags1} />
             ))}
           </div>
         </div>
@@ -32,10 +32,10 @@ const SpecialMenu = () => {
       </div> */}
 
         <div className="app__specialMenu-menu_cocktails  flex__center">
-          <p className="app__specialMenu-menu_heading">Pizzat</p>
+          <p className="app__specialMenu-menu_heading">{lan === 'fn' ? 'Pizzat' : 'Pizza'}</p>
           <div className="app__specialMenu_menu_items">
             {data.pizzat.map((cocktail, index) => (
-              <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
+              <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} title1={cocktail.title1} choose={cocktail.choose} choose1={cocktail.choose1} price={cocktail.price} tags={cocktail.tags} tags1={cocktail.tags1} />
             ))}
           </div>
         </div>
@@ -53,7 +53,7 @@ const SpecialMenu = () => {
           <p className="app__specialMenu-menu_heading">Salaatit</p>
           <div className="app__specialMenu_menu_items">
             {data.salaatit.map((wine, index) => (
-              <MenuItem3 key={wine.title + index} image={wine.image} title={wine.title} price={wine.price} choose={wine.choose} tags={wine.tags} />
+              <MenuItem3 key={wine.title + index} image={wine.image} title={wine.title} title1={wine.title1} price={wine.price} choose={wine.choose} choose1={wine.choose1} tags={wine.tags} tags1={wine.tags1} />
             ))}
           </div>
         </div>
@@ -66,7 +66,7 @@ const SpecialMenu = () => {
           <p className="app__specialMenu-menu_heading">Veg Menu</p>
           <div className="app__specialMenu_menu_items">
             {data.vegeMenu.map((cocktail, index) => (
-              <MenuItem3 key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
+              <MenuItem3 key={cocktail.title + index} image={cocktail.image} title={cocktail.title} title1={cocktail.title1} choose={cocktail.choose} choose1={cocktail.choose1} price={cocktail.price} tags={cocktail.tags} tags1={cocktail.tags1} />
             ))}
           </div>
         </div>
@@ -74,7 +74,7 @@ const SpecialMenu = () => {
           <p className="app__specialMenu-menu_heading">Pizza lisätäyttet</p>
           <div className="app__specialMenu_menu_items">
             {data.lisätäyttet.map((cocktail, index) => (
-              <MenuItem3 key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
+              <MenuItem3 key={cocktail.title + index} image={cocktail.image} title={cocktail.title} title1={cocktail.title1} choose={cocktail.choose} choose1={cocktail.choose1} price={cocktail.price} tags={cocktail.tags} tags1={cocktail.tags1} />
             ))}
           </div>
         </div>
@@ -120,7 +120,7 @@ const SpecialMenu = () => {
           <p className="app__specialMenu-menu_heading">Extrat</p>
           <div className="app__specialMenu_menu_items">
             {data.extrat2.map((cocktail, index) => (
-              <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} choose={cocktail.choose} price={cocktail.price} tags={cocktail.tags} />
+              <MenuItem key={cocktail.title + index} image={cocktail.image} title={cocktail.title} title1={cocktail.title1} choose={cocktail.choose} choose1={cocktail.choose1} price={cocktail.price} tags={cocktail.tags} tags1={cocktail.tags1} />
             ))}
           </div>
         </div>

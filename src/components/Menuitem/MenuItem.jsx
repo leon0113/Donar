@@ -4,7 +4,7 @@ import './MenuItem.css';
 import { lanAtom } from '../../atom';
 // import { images } from '../../constants';
 
-const MenuItem = ({ image, title, title1, price, tags, choose }) => {
+const MenuItem = ({ image, title, title1, price, tags, tags1, choose, choose1 }) => {
   const lan = useRecoilValue(lanAtom);
   return (
     <div className='menuCard'>
@@ -12,7 +12,7 @@ const MenuItem = ({ image, title, title1, price, tags, choose }) => {
       <div className="app__menuitem">
         <div className="app__menuitem-head">
           <div className="app__menuitem-name">
-            <p className="p__cormorant" style={{ color: '#DCCA87' }}>{lan === 'en' ? title : title1}</p>
+            <p className="p__cormorant" style={{ color: '#DCCA87' }}>{lan === 'fn' ? title : title1}</p>
           </div>
           <div className="app__menuitem-dash" />
           <div className="app__menuitem-price">
@@ -21,8 +21,8 @@ const MenuItem = ({ image, title, title1, price, tags, choose }) => {
         </div>
 
         <div className="app__menuitem-sub">
-          <p className="p__opensans" style={{ color: '#fffdf4' }}>{choose}</p>
-          <p className="p__opensans" style={{ color: '#AAAAAA' }}>{tags}</p>
+          <p className="p__opensans" style={{ color: '#fffdf4' }}>{lan === 'fn' ? choose : choose1}</p>
+          <p className="p__opensans" style={{ color: '#AAAAAA' }}>{lan === 'fn' ? tags : tags1}</p>
         </div>
       </div>
     </div>
