@@ -12,7 +12,7 @@ const Newsletter = () => {
         <div className="app__newsletter-heading">
           <SubHeading title="Döner House" />
           <h1 className="headtext__cormorant">{lan == 'en' ? 'Call Us Now!' : <span className='text-5xl'>Soita meille nyt!</span>}</h1>
-          <p className="p__opensans text-lg mt-3">{lan == 'en' ? 'Place your order to experience the best foods.' : 'Tee tilauksesi ja koe parhaat ruoat.'}</p>
+          <p className="p__opensans md:text-lg text-[22px] mt-3">{lan == 'en' ? 'Place your order to experience the best foods.' : 'Tee tilauksesi ja koe parhaat ruoat.'}</p>
         </div>
         <FaPhoneAlt className='footer_phone_icon' />
         {/* <div className="app__newsletter-input flex__center">
