@@ -5,7 +5,7 @@ import { useRecoilValue } from 'recoil';
 import { lanAtom } from '../../atom';
 
 const Newsletter = () => {
-  const lan = useRecoilValue(lanAtom)
+  const lan = useRecoilValue(lanAtom);
   return (
     <a href="tel:+041 5731795">
       <div className="app__newsletter hover:bg-gray-900 cursor-pointer">
@@ -15,10 +15,6 @@ const Newsletter = () => {
           <p className="p__opensans md:text-lg text-[22px] mt-3">{lan == 'en' ? 'Place your order to experience the best foods.' : 'Tee tilauksesi ja koe parhaat ruoat.'}</p>
         </div>
         <FaPhoneAlt className='footer_phone_icon' />
-        {/* <div className="app__newsletter-input flex__center">
-      <input type="email" placeholder="Enter your email address" />
-      <button type="button" className="custom__button">Subscribe</button>
-    </div> */}
       </div>
     </a>
   )
