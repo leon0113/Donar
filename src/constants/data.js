@@ -72,7 +72,7 @@ const menu = [
   },
   {
     image: "https://i.ibb.co/9Z6kqn8/TALON-SPESSU-removebg-preview.png",
-    choose: "valitse proteiini: nauta/voner/falafel,ranskalaiset",
+    choose: "valitse proteiini: nauta/voner/falafel, ranskalaiset",
     choose1: "choose protein: beef/veal/falafel, chips",
     title: 'TALON SPESSU',
     title1: 'TALON SPESSU',
